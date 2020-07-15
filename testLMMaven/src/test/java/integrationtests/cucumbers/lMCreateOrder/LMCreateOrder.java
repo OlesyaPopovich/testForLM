@@ -1,23 +1,12 @@
 package integrationtests.cucumbers.lMCreateOrder;
 
 import com.codeborne.selenide.*;
-import com.google.common.base.Predicate;
-import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import javax.annotation.Nullable;
-
-import java.util.List;
-
 import static com.codeborne.selenide.Selenide.*;
 
-import static org.openqa.selenium.By.id;
-import static org.openqa.selenium.By.tagName;
 
 
 /**
@@ -25,8 +14,6 @@ import static org.openqa.selenium.By.tagName;
  */
 
 public class LMCreateOrder {
-
-    WebDriver webDriver;
 
     @Given("^Запускаем браузер и входим на сайт LeroyMerlin$")
     public void openLeroyMerlin() {
