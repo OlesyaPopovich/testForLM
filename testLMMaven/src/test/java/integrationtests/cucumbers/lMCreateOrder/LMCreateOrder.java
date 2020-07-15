@@ -63,7 +63,6 @@ public class LMCreateOrder {
 
     @Then("^Отображается название страницы каталога \"(.*)\"$")
     public void catalogTitle(String catalogNameTitle) {
-        Selenide.sleep(3000);
         SelenideElement pageTitle = $(".page-title").$(".page-title__plp");
         Assert.assertEquals(pageTitle.getText(), catalogNameTitle);
     }
