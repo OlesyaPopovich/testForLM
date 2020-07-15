@@ -1,4 +1,4 @@
-package integrationtests.cucumbers.lMSearch;
+package integrationtests.cucumbers.lMCreateOrder;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -10,8 +10,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        glue = {"integrationtests.cucumbers.lMSearch", "integrationtests.cucumbers.commonUtils",
+        glue = {"integrationtests.cucumbers.lMCreateOrder",
                 "cucumber.api.spring"},
-        tags = "@lMSearch")
-public class LMSearchRunTest {
+        tags = "@lMCreateOrder")
+public class LMCreateOrderRunTest {
 }
